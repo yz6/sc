@@ -1,0 +1,270 @@
+
+.gw-container{
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.main-content{
+	width: 100%;
+	max-width: 1230px;
+	padding-left: 210px;
+	height: auto;
+	overflow: hidden;
+	padding-top: 100px;
+	z-index: 10;
+}
+.products-content{
+	width: 100%;
+	min-height: 530px;
+}
+@media (max-width: 1441px) and (min-width: 1281px){
+.main-content{
+	width:80%;
+}
+}
+@media screen and (max-width: 1108px){
+.main-content {
+    min-width: 990px;
+}
+}
+@media screen and (max-width: 1280px){
+.main-content {
+    width: 80%;
+}
+}
+
+.singlepeage{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto 50px;
+}
+
+.mainimgbox{
+	width: 100%;
+	overflow: hidden;
+}
+.mainimgbox img{
+	width: 100%;
+	height: auto;
+}
+.lbox{
+	float: left;
+	width: 32.8%;
+	max-width: 403px;
+}
+
+.rbox{
+	float: right;
+	width: 67.2%;
+	max-width:827px;
+}
+.lbox1{
+	margin-top: 10px;
+	float: left;
+    width: 62.5%;
+    max-width: 769px;
+}
+.rbox1{
+	margin-top: 10px;
+	float: right;	
+	width: 37.5%;
+	max-width: 461px;
+}
+.lbox2{
+	margin-top: 10px;
+	float: left;
+	width: 36%;
+	max-width: 443px;
+}
+.rbox2{
+	margin-top: 10px;
+	    float: right;
+    width: 64%;
+    max-width: 787px;
+}
+.lbox3{
+	margin-top: 10px;
+	float: left;
+	width: 68.8%;
+	max-width: 847px;
+}
+.rbox3{
+	margin-top: 10px;
+	float: right;
+    width: 31.2%;
+    max-width: 403px;
+}
+.new-list{
+	display: block;	
+	width: 100%;
+	margin: 15px 0 25px;
+	padding: 0;
+	overflow: hidden;
+	z-index: 1;
+}
+.new-list>li{
+	float: left;
+	width: 24%;
+	margin: 0px 0.5% 0 0.5%;
+	position: relative;
+	overflow: hidden;
+}
+.new-list>li img{
+	width: 100%;
+}
+.new-list>li div{
+	width: 100%;
+	text-align: center;
+	margin:5px 0;
+}
+.new-list a{
+	width: 100%;
+	font-size: 14px;
+	line-height: 25px;
+}
+.new-list p{
+	font-size: 12px;
+}
+.main-content a:hover{
+	text-decoration: underline;
+}
+.selectPagForm{
+	padding: 0px;
+	margin: 0px;
+}
+.selectPagForm>.rank{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+.rank>span,b{
+	color: #666;
+}
+.rank>b{
+	font-weight: bold;
+}
+.rank a{
+	display: inline-block;
+	padding: 5px 10px;
+	border:1px solid #666;
+}
+.content-arera{
+	width: 100%;
+    height: auto;
+    background: url(../img/line.png) top repeat-x;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.unifided-title{
+	width: 100%;
+	padding: 20px 0 15px 0;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 700;
+}
+.shopping-cart{
+	width: 100%;
+    height: auto;
+    padding-top: 5px;
+    overflow: hidden;
+}
+.shopping-bag{
+	width: 100%;
+	height: auto;
+	background:url(../img/line.png) top left repeat-x;
+}
+thead{
+	display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr, td {
+    padding: 5px;
+
+}
+.shopping-bag thead th{
+	    background: url(../img/dotted_line.png) repeat-x bottom left;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 16px 13px 16px 0;
+    text-align: center;
+}
+input:valid, textarea:valid {
+    vertical-align: middle;
+}
+.shopping-bag thead .aleft{
+	text-align: left;
+}
+.shopping-bag thead .aright{
+	text-align: right;
+    padding-right: 20px;
+}
+.shopping-bag thead .lastcol{
+	min-width: 45px;
+	text-align: right;
+    padding-right: 0;
+}
+
+#updatecart {
+    display: block;
+    white-space: nowrap;
+    font-weight: normal;
+    text-align: center;
+    min-width: 120px;
+    line-height: 32px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    border:none;
+}
+#updatecart:hover{
+	background-color:#f57e20;
+}
+.bask-buttons{
+	width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background: url(../img/dotted_line.png) repeat-x top left;
+    overflow: hidden;
+}
+.bask-left{
+	float: left;
+    display: block;
+    white-space: nowrap;
+    font-weight: normal;
+    text-align: center;
+    width: 198px;
+    line-height: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000;
+    cursor: pointer;
+    overflow: hidden;
+}
+.bask-left:hover{
+background-color: #f57e20;
+    color: #fff;
+    border: 1px solid #f57e20;
+}
+.bask-right{
+	float: right;
+    display: block;
+    white-space: nowrap;
+    font-weight: normal;
+    text-align: center;
+    width: 200px;
+    line-height: 37px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+}
+.bask-right:hover{
+	background-color: #f57e20;
+}

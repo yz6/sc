@@ -1,0 +1,360 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/明星同款购物车.css">
+</head>
+<body>
+<!-- 头部 -->
+		<div class="header">
+		<div class="tools">
+			<div class="tools-left">
+				<button class="nav-bot">menu</button>
+			</div>
+			<div class="tools-right">
+				<form action="">
+					<input class="search" type="text" placeholder="搜索.." >
+					<input class="searchaction" type="submit" value="" >
+					<ul>
+						<li><a style="color:#c70a28;" href="#usermenu-bg-longin">登录</a></li>
+						<li><a style="color:#000;" href="#usermenu-bg-register">注册</a></li>
+						<li><a href="购物车.html"><img src="img/bg_01.png" alt=""></a></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+		<div class="logo">
+			<div class="logo-size">
+				<a href="首页.html"><img src="img/logo.png" alt=""></a>
+			</div>
+		</div>	
+	</div>
+	<!-- 商品内容 -->
+	<div class="gw-container">
+	<!-- 导航菜单 -->
+		<div class="nav-content">
+			<ul class="content-list">
+				<li class="recommend recommend1"><a href="#">新品上线</a></li>
+				<li class="recommend"><a href="热销商品.html">热卖单品</a></li>
+				<li class="recommend"><a href="明星同款.html">明星同款</a></li>
+				<li class="classify"><a href="#toutao">头套</a>
+				<ul id="toutao">
+					<li><a href="#">女士</a></li>
+					<li><a href="#">男士</a></li>
+					<li><a href="#">中老年</a></li>
+					<li><a href="#">短款</a></li>
+					<li><a href="#">中款</a></li>
+					<li><a href="#">长款</a></li>
+					<li><a href="#">卷发</a></li>
+					<li><a href="#">直发</a></li>
+				</ul>
+				</li>
+				<li class="classify"><a href="#fakuai">发块</a>
+				<ul id="fakuai">
+					<li><a href="#">女士发块</a></li>
+					<li><a href="#">男士发块</a></li>
+					<li><a href="#">老年发块</a></li>
+				</ul>
+				</li>
+				<li class="classify"><a href="#peijian">佩件</a>
+				<ul id="peijian">
+					<li><a href="#">刘海</a></li>
+					<li><a href="#">花苞</a></li>
+					<li><a href="#">马尾</a></li>
+					<li><a href="#">半假发</a></li>
+					<li><a href="#">接发系列</a></li>
+				</ul>
+				</li>
+				<li class="classify"><a href="#bibei">假发必备</a>
+				<ul id="bibei">
+					<li><a href="#">假发必备</a></li>
+					<li><a href="#">时尚单品</a></li>
+				</ul>
+				</li>
+				<li class="classify"><a href="#vip">会员专区</a>
+				<ul id="vip">
+					<li><a href="#">代金券</a></li>
+					<li><a href="#">促销活动</a></li>
+					<li><a href="#">积分商城</a></li>
+				</ul>
+				</li>
+				<li class="recommend recommend1"><a href="#">时尚趋势</a></li>
+				<li class="recommend"><a href="#">品牌动态</a></li>
+			</ul>
+		</div>
+		<!-- 商品 -->
+		<div class="main-content">
+			<div class="mainarea">
+				<div class="products-content">
+					<div class="content-arera">
+						<div class="clear"></div>
+						<div class="block">
+							<div class="unifided-title">购物篮</div>
+							<div class="shopping-cart">
+								<table cellpadding="0" cellspacing="0" class="shopping-bag">
+									<thead>
+										<tr>
+											<th class="tb1"><input type="checkbox">全选</th>
+											<th>商品</th>
+											<th>品名</th>
+											<th>属性</th>
+											<th class="aleft">价格</th>
+											<th class="aright">数量</th>
+											<th class="aright">金额</th>
+											<th class="lastcol">删除</th>
+										</tr>
+										<tbody>
+
+										</tbody>
+									</thead>
+								</table>
+								<table style="width: 100%;">
+									<tbody>
+										<tr>
+											<td><input type="checkbox">
+											取消</td>
+											<td><input id="updatecart" type="text" value="更新购物车"></td>
+										</tr>
+										<tr align="right">
+											<td colspan="2">商品总数：0</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span>购物金额小计￥0.00元</span>
+												<span></span>
+												
+												<h2 class="fr" style="color: red; display: inline-block; font-size: 20px;" >￥0.00</h2>
+												<span style="line-height: 32px" class="fr">整单实际金额:</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="bask-buttons">
+									<a class="bask-left" href="#">继续购买</a>
+									<a class="bask-right" href="#">结算</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="bottom-content">
+		<div class="bottom-nav">
+			<div class="nav-one">
+				<div class="tit">关注Rebecca社交平台</div>				
+				<div class="sns-list">
+					<ul>
+						<li>
+							<div><img src="img/c_001.jpg" alt=""></div>
+							<p>官方微信</p>
+						</li>
+						<li>
+							<div><img src="img/c_002.jpg" alt=""></div>
+							<p>天猫店铺</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="nav-two">
+			<div class="tit">帮助中心</div>
+				<div class="shopping-list">
+					<ul>
+						<li><a href="#">购买指南</a></li>
+						<li><a href="#">常见问题</a></li>
+						<li><a href="#">忘记密码</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="nav-two">
+			<div class="tit">关于我们</div>
+				<div class="shopping-list">
+				
+					<ul>
+						<li><a href="#">品牌理念</a></li>
+						<li><a href="#">全国门店</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="nav-two">
+				<div class="tit">联系合作</div>
+				<div class="shopping-list">
+					<ul>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">加盟条件</a></li>
+						<li><a href="#">诚招加盟</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="nav-three">
+				<div class="tit">门店查询</div>
+				<div class="store-list">
+					<form action="">
+						<input class="search-input" type="text" value="请输入查询的城市...">
+						<input class="search-btn" type="sumbit" value="搜索">
+					</form>
+				</div>
+			</div>
+			</div>
+			<div class="copyright">	
+				<div class="copyright-one">
+					<ul class="languages">
+						<li><a href="#">简体中文</a></li>
+						<li>|</li>
+						<li><a href="#">English</a></li>
+					</ul>
+				</div>
+				<div class="copyright-two">
+					
+ 版权所有：河南瑞贝卡发制品股份有限公司　　地址：河南省许昌市瑞贝卡大道666号 服务热线：400-659-5559ICP备案证书号:豫ICP备12009437号-8
+				</div>
+			</div>		
+	</div>
+		</div>
+	</div>
+<div id="usermenu-bg-longin">	
+	<div id="login">
+		<div class="close"><a href="#"></a></div>		
+	
+		<div class="logincontent">
+			<div class="logintitle">
+				<h2>登录/注册</h2>
+			</div>
+			<div class="logininfo">
+				<div class="login-l">
+					<div class="padded">
+						<div class="login-title">我已经是Rebecca的用户</div>
+						<div class="login-words">请输入您的账户和密码登录</div>
+						<div class="login-form">
+							<form action="">
+								<ul>
+									<li class="add-space1">
+										<label for="emile">邮箱/手机/用户名</label>
+									</li>
+									<li>
+										<input id="emile" class="inputtext" type="text">
+									</li>
+									<li class="add-space">
+										<label for="password">密码</label>
+									</li>
+									<li>
+										<input class="inputtext" type="password" id="password">
+									</li>
+									<li>
+										<input class="submitbtn" type="submit" value="登录">
+									</li>
+									<li>
+										<p class="p-box1">
+											<span>可以使用以下方式登录</span>
+										</p>
+										<p class="p-box2">
+											<a href="#"><img src="img/qq_login.gif" alt=""></a>|
+											<a href="#"><img src="img/sina_login_logo.gif" alt=""></a>|	
+											<a href="#"><img src="img/alipay_login.png" alt=""></a>
+										</p>
+									</li>
+									<li class="password1">
+										<a href="#">手机短信找回密码</a>
+										<a href="#">密码问题找回密码</a>
+										<a href="#">注册邮件找回密码</a>
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
+				</div>	
+				<div class="login-r">
+					<div class="padded">
+						<div class="login-title">我想成为Rebecca的用户</div>
+						<div class="login-words">如果您还不是Rebecca的用户，请在此注册</div>
+					</div>
+					<div class="login-words">请您给我们提供一些必要信息，这将使您在 Rebecca有个更快更方便的购买过程。</div>
+					<a href="#" class="submitbtn">立即注册</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div id="usermenu-bg-register">
+		<div class="register">
+			<div class="close"><a href="#"></a></div>
+			<div class="register-content">
+				<div class="logintitle">
+					<h2>登录/注册</h2>
+				</div>
+				<div class="registerinfo">
+					<div class="inforegister">
+						<div class="padded">
+							<div class="register-words">
+								请填写下表来在 Rebecca 注册。
+								<br>
+								我们将会保存您提供的资料以方便您在网上购物。
+							</div>
+							<div class="registerform">
+								<form action="">
+									<ul class="register-list">
+										<li>
+											<div class="zhanghu-title">账户信息</div>
+										</li>
+										<li>
+											<label class="lableleft" for="username">用户名：</label>
+											<input class="inputtext" class="" id="username" type="text">
+											<span>- 用户名长度不能少于 3 个字符。</span>
+										</li>
+										<li>
+											<label class="lableleft" for="passwords">密码：</label>
+											<input class="inputtext" id="passwords" type="text">
+											<span>- 登录密码不能少于 6 个字符。</span>
+										</li>
+										<li>
+											<label class="lableleft" for="passwordrepeat">重复密码：</label>
+											<input class="inputtext" id="passwordrepeat" type="text">
+											<span> - 登录密码不能少于 6 个字符。</span>
+										</li>
+										<li>
+											<label class="lableleft" for="number">手机号：</label>
+											<input class="inputtext" id="number" type="text">
+											<span>*</span>
+										</li>
+										<li>
+											<label class="lableleft" for="msgcod">短信验证码：</label>
+											<input id="msgcod" class="inputtext" type="text">
+											<span>
+												<input class="phonebtn" type="button" value="获取手机验证码">
+											</span>
+										</li>
+										<li>
+											<label  class="lableleft" for="code">验证码</label>
+											<input id="code" size="8" type="text">
+											<img src="img/captcha.png" alt="">
+										</li>
+										<li class="clause"><label for="">
+											<input type="checkbox">  我接受
+
+											《<a href="#">用户协议</a>》和《<a href="#">隐私条款</a>》
+										</label></li>
+										<li>
+											<div class="bi">* 必填栏</div>
+										</li>
+										<li>
+											<div class="creation">
+												<input type="submit"class="submitbtn" value="立即注册">
+											</div>
+											<br>
+											<a class="unl" href="#">已是Rebecca会员？点击这里</a>
+										</li>
+									</ul>
+								</form>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

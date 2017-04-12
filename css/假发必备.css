@@ -1,0 +1,41 @@
+.gw-container{
+	width: 76%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.products-content-list{
+	margin: 0 0 15px;
+}
+.main-content a:hover{
+	text-decoration: none;
+}
+.ur-here{
+	padding-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+	color:#666;
+	line-height: 20px;
+}
+.top-change{
+	width: auto;
+	float: right;
+}
+.change1{
+	float: left;
+	padding-right: 10px;
+	background:url(../img/c_008.jpg) right no-repeat;
+}
+.change2{
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	background:url(../img/c_008.jpg) right no-repeat;
+}
+.change3{
+	float: left;
+	padding-left: 10px;
+}
+.change3 div{
+	float: left;
+	margin: 0 5px;
+}

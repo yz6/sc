@@ -1,0 +1,134 @@
+
+.gw-container{
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.main-content{
+	width: 100%;
+	max-width: 1230px;
+	padding-left: 210px;
+	height: auto;
+	overflow: hidden;
+	padding-top: 100px;
+	z-index: 10;
+}
+.products-content{
+	width: 100%;
+	min-height: 530px;
+}
+@media (max-width: 1441px) and (min-width: 1281px){
+.main-content{
+	width:80%;
+}
+}
+@media screen and (max-width: 1108px){
+.main-content {
+    min-width: 990px;
+}
+}
+@media screen and (max-width: 1280px){
+.main-content {
+    width: 80%;
+}
+}
+
+.singlepeage{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto 50px;
+}
+
+.mainimgbox{
+	width: 100%;
+	overflow: hidden;
+}
+.mainimgbox img{
+	width: 100%;
+	height: auto;
+}
+.lbox{
+	float: left;
+	width: 52%;
+	max-width: 750px;
+}
+.lbox1{
+	float: left;
+	width: 37.5%;
+	max-width: 240px;
+	float: left;
+}
+.lbox2{
+	width: 61.5%;
+	float: right;
+	max-width: 395px;
+}
+.lbox3{
+	margin-top: 6px;
+	overflow: hidden;
+	clear: both;
+}
+.rbox{
+	float: right;
+	width: 47.3%;
+	max-width: 684px;
+	z-index: -1;
+}
+.new-list{
+	display: block;	
+	width: 100%;
+	margin: 15px 0 25px;
+	padding: 0;
+	overflow: hidden;
+	z-index: 1;
+}
+.new-list>li{
+	float: left;
+	width: 24%;
+	margin: 0px 0.5% 0 0.5%;
+	position: relative;
+	overflow: hidden;
+}
+.new-list>li img{
+	width: 100%;
+}
+.new-list>li div{
+	width: 100%;
+	text-align: center;
+	margin:5px 0;
+}
+.new-list a{
+	width: 100%;
+	font-size: 14px;
+	line-height: 25px;
+}
+.new-list p{
+	font-size: 12px;
+}
+.main-content a:hover{
+	text-decoration: underline;
+}
+.selectPagForm{
+	padding: 0px;
+	margin: 0px;
+}
+.selectPagForm>.rank{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+.rank>span,b{
+	color: #666;
+}
+.rank>b{
+	font-weight: bold;
+}
+.rank a{
+	display: inline-block;
+	padding: 5px 10px;
+	border:1px solid #666;
+}

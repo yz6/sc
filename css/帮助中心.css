@@ -1,0 +1,144 @@
+.gw-container {
+    width: 76%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.areal{
+	width: 100px;
+	float: none;
+}
+.help-center {
+    overflow: hidden;
+    clear: both;
+}
+.help-center dl{
+	   padding-bottom: 5px;
+}
+.help-center dt{
+	line-height: 32px;
+	margin-bottom: 0px;
+	height: 32px;
+	font-weight: bold;
+}
+.help-center dd{
+	line-height: 24px;
+	overflow: hidden;
+	    display: block;
+}
+.help-center dd a{
+	padding-left: 9px;
+	background:url(../img/biao6.gif) 0 center no-repeat;
+}
+.help-center a:hover{
+	    color: #d00000;
+}
+.content-areas{
+	width: 100%;
+    height: auto;
+    background: url(../img/line.png) top repeat-x;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.arera{
+	max-width: 1000px;
+	line-height: 26px;
+	height: auto;
+	margin-top: 15px;
+}
+.box{
+	overflow: hidden;
+}
+.box-1 h3{
+	border-bottom: #e2e2e1 1px solid;
+	border-left: medium none;
+	border-top: none;
+	padding-bottom: 0;
+	line-height: 29px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color: #f0f0f0;
+	height: 29px;
+	font-size: 12px;
+	font-weight: 100;
+	padding-top: 0px;
+}
+h3 span{
+	text-align: left;
+	line-height: 29px;
+	padding-left: 10px;
+	width: auto;
+	float: left;
+	height: 29px;
+	color: #b23636;
+	font-size: 14px;
+	font-weight: bold;
+}
+.art{
+	margin: 8px 0;
+}
+.inputbg{
+	width: 300px;
+	vertical-align: middle;
+	border-bottom: #ccc 1px solid;
+	border-left: #ccc 1px solid;
+	height: 24px;
+	color: #666666;
+	border-top: #ccc 1px solid;
+	border-radius: #ccc 1px solid;
+}
+.btn-blue{
+	vertical-align: middle;
+	cursor: pointer;
+	display: block;
+    white-space: nowrap;
+    font-weight: normal;
+    text-align: center;
+    min-width: 120px;
+    line-height: 32px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 28.5%;
+    float: left;
+    overflow: hidden;
+    border: none;
+}
+.btn-blue:hover{
+	background-color: #f57e20;
+}
+tbody{
+	    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr,td{
+	padding: 5px;
+	background-color: #fff;
+}
+tr>td div{
+	border-bottom: 1px dotted #ccc;
+	padding: 5px 0;
+}
+tr td div a{
+	color: #d00000;
+}
+tr>td>div>a:hover{
+	color: black;
+	text-decoration: none;
+}
+.paixu span{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    color: #666;
+}
+.paixu a{
+	    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #666;
+}
