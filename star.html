@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>购物车</title>
+	<title>明星同款</title>
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/home.css">
-	<link rel="stylesheet" href="css/明星同款购物车.css">
+	<link rel="stylesheet" href="css/starshoppingcar.css">
 </head>
 <body>
 <!-- 头部 -->
@@ -21,14 +21,14 @@
 					<ul>
 						<li><a style="color:#c70a28;" href="#usermenu-bg-longin">登录</a></li>
 						<li><a style="color:#000;" href="#usermenu-bg-register">注册</a></li>
-						<li><a href="购物车.html"><img src="img/bg_01.png" alt=""></a></li>
+						<li><a href="shopping-cart.html"><img src="img/bg_01.png" alt=""></a></li>
 					</ul>
 				</form>
 			</div>
 		</div>
 		<div class="logo">
 			<div class="logo-size">
-				<a href="首页.html"><img src="img/logo.png" alt=""></a>
+				<a href="index.html"><img src="img/logo.png" alt=""></a>
 			</div>
 		</div>	
 	</div>
@@ -37,9 +37,9 @@
 	<!-- 导航菜单 -->
 		<div class="nav-content">
 			<ul class="content-list">
-				<li class="recommend recommend1"><a href="#">新品上线</a></li>
-				<li class="recommend"><a href="热销商品.html">热卖单品</a></li>
-				<li class="recommend"><a href="明星同款.html">明星同款</a></li>
+				<li class="recommend recommend1"><a href="new.html">新品上线</a></li>
+				<li class="recommend"><a href="hot.html">热卖单品</a></li>
+				<li class="recommend"><a href="star.html">明星同款</a></li>
 				<li class="classify"><a href="#toutao">头套</a>
 				<ul id="toutao">
 					<li><a href="#">女士</a></li>
@@ -89,54 +89,75 @@
 		<div class="main-content">
 			<div class="mainarea">
 				<div class="products-content">
-					<div class="content-arera">
-						<div class="clear"></div>
-						<div class="block">
-							<div class="unifided-title">购物篮</div>
-							<div class="shopping-cart">
-								<table cellpadding="0" cellspacing="0" class="shopping-bag">
-									<thead>
-										<tr>
-											<th class="tb1"><input type="checkbox">全选</th>
-											<th>商品</th>
-											<th>品名</th>
-											<th>属性</th>
-											<th class="aleft">价格</th>
-											<th class="aright">数量</th>
-											<th class="aright">金额</th>
-											<th class="lastcol">删除</th>
-										</tr>
-										<tbody>
-
-										</tbody>
-									</thead>
-								</table>
-								<table style="width: 100%;">
-									<tbody>
-										<tr>
-											<td><input type="checkbox">
-											取消</td>
-											<td><input id="updatecart" type="text" value="更新购物车"></td>
-										</tr>
-										<tr align="right">
-											<td colspan="2">商品总数：0</td>
-										</tr>
-										<tr>
-											<td colspan="2">
-												<span>购物金额小计￥0.00元</span>
-												<span></span>
-												
-												<h2 class="fr" style="color: red; display: inline-block; font-size: 20px;" >￥0.00</h2>
-												<span style="line-height: 32px" class="fr">整单实际金额:</span>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-								<div class="bask-buttons">
-									<a class="bask-left" href="#">继续购买</a>
-									<a class="bask-right" href="#">结算</a>
-								</div>
+					<div class="singlepage">
+						<div class="mainimgbox clearfix">
+							<div class="lbox">
+								<a href="#"><img src="img/MingXing01(RM-Z150443MN).jpg" alt=""></a>
 							</div>
+							<div class="rbox">
+								<a href="#"><img src="img/MingXing02(RM-Z150443MN).jpg" alt=""></a>
+							</div>
+							<div class="lbox1"><a href="res1.html"><img src="img/MingXing03(RM-C150444MN).jpg" alt=""></a></div>
+							<div class="rbox1"><a href="res1.html"><img src="img/MingXing04(RM-C150444MN).jpg" alt=""></a></div>
+							<div class="lbox2"><a href="res1.html"><img src="img/MingXing05(RM-C150442MN).jpg" alt=""></a></div>
+							<div class="rbox2"><a href="res1.html"><img src="img/MingXing06(RM-C150442MN).jpg" alt=""></a></div>
+							<div class="lbox3"><a href="res1.html"><img src="img/MingXing07(RM-Z150441MN).jpg" alt=""></a></div>
+							<div class="rbox3"><a href="res1.html"><img src="img/MingXing08(RM-Z150441MN).jpg" alt=""></a></div>
+						<ul class="new-list">
+							<li>
+								<div><a href="#">
+										<img src="img/108_thumb_G_1478045049877 (1).jpg" alt="">
+										<div>
+											<a href="商品1.html">酒红长直发 清新魅力头套150456</a>
+											<p>￥5480.00</p>
+										</div>
+									</a></div>
+							</li>
+							<li>
+								<div><a href="#">
+										<img src="img/103_thumb_G_1478044801373 (1).jpg" alt="">
+										<div>
+											<a href="#">绚丽发色 尽显摩登气质头套150442
+											</a>
+											<p>￥4880.00</p>
+										</div>
+									</a></div>
+							</li>
+							<li>
+								<div><a href="#">
+										<img src="img/99_thumb_G_1478044482851 (1).jpg" alt="">
+										<div>
+											<a href="#">复古卷发 性感妩媚头套150444</a>
+											<p>￥4880.00</p>
+										</div>
+									</a></div>
+							</li>
+							<li>
+								<div><a href="#">
+										<img src="img/92_thumb_G_1478044018838 (1).jpg" alt="">
+										<div>
+											<a href="#">齐刘海BOBO 时尚减龄头套150441</a>
+											<p>￥3280.00</p>
+										</div>
+									</a></div>
+							</li>
+							<li>
+								<div><a href="#">
+										<img src="img/91_thumb_G_1478043702354 (1).jpg" alt="">
+										<div>
+											<a href="#">空气感卷发 女人味十足头套150443</a>
+											<p>￥3680.00</p>
+										</div>
+									</a></div>
+							</li>
+
+						</ul>
+					</div>
+					<div class="selectPagForm">
+						<div class="rank">
+							<span>总计 <b>5</b> 个记录&nbsp;&nbsp;
+							<a href="#">上一页</a>
+							<a href="#">下一页</a></span>
 						</div>
 					</div>
 				</div>
@@ -162,8 +183,8 @@
 			<div class="tit">帮助中心</div>
 				<div class="shopping-list">
 					<ul>
-						<li><a href="#">购买指南</a></li>
-						<li><a href="#">常见问题</a></li>
+						<li><a href="help.html">购买指南</a></li>
+						<li><a href="help.html">常见问题</a></li>
 						<li><a href="#">忘记密码</a></li>
 					</ul>
 				</div>
